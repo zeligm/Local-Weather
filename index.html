@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Local Weather</title>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+  <body>
+    
+    <div class='container center'>
+      <div class='row'></div>
+      <div class='row'>
+          <div class="">
+            <div class='row'></div>
+            <h2><strong>This</strong> is the local weather:</h2>
+            <p>(The background image changes according the local temperature!)</p>
+            <div class="card-content">
+              <div class='row'>
+                <p>Location: </p>
+                <a class='push-s5 btn black' id='location'>location</a>
+              </div>
+              <div class='row'>
+                <p>Temperature (click to switch between  &#8451; &  &#8457;): </p>
+              <a class='push-s5 btn black' id='cTemp'>°cTemp</a>
+              </div>
+              <div class='row'>
+                <p>Weather Type: </p>
+                <a class='push-s5 btn black' id='weatherType'>weatherType</a>
+              </div>
+              <div class='row'>
+                <p>Wind Speed (meters/second): </p>
+                <a class='push-s5 btn black' id='windSpeed'>windSpeed</a>
+              </div>
+              
+              <br><br><br>
+              <div class='footer-copyright valign-wrapper'>
+                <div class='container valign center-align'>
+                  <p class=''>&copy; Developed by <a href='http://www.github.com/zeligm' target="_blank" id='link'>Zelig Malamud</a> - 2016 </p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+</html>
