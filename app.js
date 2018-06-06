@@ -16,7 +16,7 @@ $(document).ready(function(){
       var windSpeed = data.currently.windSpeed;
       var location = data.timezone;
       var tempSwap = true;
-      
+      //comment here
       $('#location').html(location);
       $('#weatherType').html(weatherType);
       $('#cTemp').html(cTemp + " &#8451;");
